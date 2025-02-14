@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebe7b8;
+    color: #333;
+}
+
+header {
+    background-color: #e7b019;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #942205;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+
+.produk {
+    padding: 2rem;
+    text-align: center;
+}
+
+.produk-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.produk-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.produk-item img {
+    max-width: 100px;
+	max-height: 100px;
+    border-radius: 8px;
+}
+
+.keranjang {
+    padding: 2rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+ #kontak {
+        padding: 40px;
+        background-color: #f8f8f8;
+        text-align: center;
+    }
+
+    #kontak h1 {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .kontak-info {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+        text-align: left;
+    }
+
+    th, td {
+        padding: 12px;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #333;
+        color: white;
+    }
+
+    td {
+        background-color: #f9f9f9;
+    }
+
+    a {
+        color: #3498db;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    footer {
+  position: relative;
+  margin-top: auto;
+}
